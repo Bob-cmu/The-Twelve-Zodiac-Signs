@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zodiac Matcher</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background-color: white;
+            padding: 25px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .result {
+            margin-top: 30px;
+            background-color: #ffffff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 320px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Zodiac Matcher </h1>
+    <form method="POST" action="/match_form">
+        <label for="birthday">Birthday (MM-DD):</label>
+        <input type="text" id="birthday" name="birthday" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">--Select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <input type="submit" value="Match">
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h2> Match Result</h2>
+        <p><strong>Zodiac:</strong> {{ result.zodiac }}</p>
+        <p><strong>Personality:</strong> {{ result.personality }}</p>
+        <p><strong>Best Match:</strong> {{ result.best_match }}</p>
+        <p><strong>Reason:</strong> {{ result.match_reason }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

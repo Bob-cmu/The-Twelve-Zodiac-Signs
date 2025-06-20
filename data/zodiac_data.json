@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Aries",
+    "start_date": "03-21",
+    "end_date": "04-19",
+    "male_personality": "Energetic, courageous, confident",
+    "female_personality": "Independent, enthusiastic, passionate",
+    "match": "Leo",
+    "match_reason": "Both are fire signs and love adventure"
+  },
+  {
+    "name": "Taurus",
+    "start_date": "04-20",
+    "end_date": "05-20",
+    "male_personality": "Reliable, patient, practical",
+    "female_personality": "Loyal, artistic, grounded",
+    "match": "Virgo",
+    "match_reason": "Both value stability and loyalty"
+  },
+  {
+    "name": "Gemini",
+    "start_date": "05-21",
+    "end_date": "06-20",
+    "male_personality": "Witty, curious, talkative",
+    "female_personality": "Lively, intelligent, adaptable",
+    "match": "Libra",
+    "match_reason": "Both are air signs and love communication"
+  },
+  {
+    "name": "Cancer",
+    "start_date": "06-21",
+    "end_date": "07-22",
+    "male_personality": "Caring, protective, emotional",
+    "female_personality": "Nurturing, intuitive, sensitive",
+    "match": "Pisces",
+    "match_reason": "Both are emotional and deeply caring"
+  },
+  {
+    "name": "Leo",
+    "start_date": "07-23",
+    "end_date": "08-22",
+    "male_personality": "Confident, generous, proud",
+    "female_personality": "Warm-hearted, cheerful, ambitious",
+    "match": "Sagittarius",
+    "match_reason": "Both are outgoing and love attention"
+  },
+  {
+    "name": "Virgo",
+    "start_date": "08-23",
+    "end_date": "09-22",
+    "male_personality": "Analytical, practical, loyal",
+    "female_personality": "Modest, kind, detail-oriented",
+    "match": "Taurus",
+    "match_reason": "Both are earth signs and share practical values"
+  },
+  {
+    "name": "Libra",
+    "start_date": "09-23",
+    "end_date": "10-22",
+    "male_personality": "Diplomatic, fair-minded, social",
+    "female_personality": "Graceful, idealistic, charming",
+    "match": "Gemini",
+    "match_reason": "Both appreciate harmony and communication"
+  },
+  {
+    "name": "Scorpio",
+    "start_date": "10-23",
+    "end_date": "11-21",
+    "male_personality": "Passionate, resourceful, brave",
+    "female_personality": "Mysterious, emotional, strong-willed",
+    "match": "Cancer",
+    "match_reason": "Both are deeply emotional and intense"
+  },
+  {
+    "name": "Sagittarius",
+    "start_date": "11-22",
+    "end_date": "12-21",
+    "male_personality": "Optimistic, adventurous, honest",
+    "female_personality": "Fun-loving, curious, independent",
+    "match": "Leo",
+    "match_reason": "Both love freedom and have a zest for life"
+  },
+  {
+    "name": "Capricorn",
+    "start_date": "12-22",
+    "end_date": "01-19",
+    "male_personality": "Disciplined, responsible, serious",
+    "female_personality": "Ambitious, cautious, elegant",
+    "match": "Taurus",
+    "match_reason": "Both are reliable and value tradition"
+  },
+  {
+    "name": "Aquarius",
+    "start_date": "01-20",
+    "end_date": "02-18",
+    "male_personality": "Innovative, eccentric, free-spirited",
+    "female_personality": "Progressive, creative, open-minded",
+    "match": "Gemini",
+    "match_reason": "Both are intellectual and enjoy ideas"
+  },
+  {
+    "name": "Pisces",
+    "start_date": "02-19",
+    "end_date": "03-20",
+    "male_personality": "Compassionate, artistic, gentle",
+    "female_personality": "Romantic, intuitive, kind",
+    "match": "Cancer",
+    "match_reason": "Both are dreamers and emotional souls"
+  }
+]
